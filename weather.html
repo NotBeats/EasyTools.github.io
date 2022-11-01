@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Search</title>
+    <link href="css/weather.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Space+Mono&display=swap" rel="stylesheet"/>
+
+    <!-- Fav Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">EasyTools</a>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-list-item"><a href="calculators.html" class="nav-link">Calculators</a></li>
+                <li class="nav-list-item"><a href="lists.html" class="nav-link">Lists</a></li>
+                <li class="nav-list-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-list-item"><a href="other.html" class="current-nav-link">Other</a></li>
+            </ul>
+        </nav>
+
+        <a href="sign-up.html" class="sign-up-button"><p class="sign-up-text">Sign Up</p></a>
+        <h2 class="display-name" id="display-name"></h2>
+    </header>
+
+    <main class="interface">
+        <h1 class="title">Weather Search</h1>
+
+        <input type="text" class="city-input" id="city-input" placeholder="Enter city name...">
+        <button id="searchBtn" class="searchBtn"><p class="search-text">Search</p></button>
+
+        <div class="results">
+            <h2 class="display-city">City:</h2>
+            <p id="city" class="city"></p>
+
+            <h2 class="display-region">Region:</h2>
+            <p id="region" class="region"></p>
+
+            <h2 class="display-country">Country:</h2>
+            <p id="country" class="country"></p>
+
+            <h2 class="display-current_weather">Current Weather:</h2>
+            <p id="current_weather" class="current_weather"></p>
+
+            <h2 class="display-current_temp">Current Temperature:</h2>
+            <p id="current_temp" class="current_temp"></p>
+
+            <h2 class="display-feel_temp">Feels Like:</h2>
+            <p id="feel_temp" class="feel_temp"></p>
+
+            <h2 class="display-humidity">Humidity:</h2>
+            <p id="humidity" class="humidity"></p>
+
+            <h2 class="display-wind">Wind:</h2>
+            <p id="wind" class="wind"></p>
+        </div>
+    </main>
+    <script src="js/weather.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

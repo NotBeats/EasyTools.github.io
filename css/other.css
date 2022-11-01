@@ -1,0 +1,59 @@
+.game-search {
+    background-color: var(--clr-lighter_background);
+    display: flex;
+    border-radius: 1.25rem;
+    width: 37.5rem;
+    height: 9.6875rem;
+    filter: drop-shadow(.125rem .125rem .125rem #254244);
+    margin-top: 2.5rem;
+    margin-left: 4.375rem;
+    text-decoration: none;
+}
+
+.game-search-text {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 3.4375rem;
+    margin: auto;
+}
+
+.breakout {
+    background-color: var(--clr-lighter_background);
+    display: flex;
+    border-radius: 1.25rem;
+    width: 37.5rem;
+    height: 9.6875rem;
+    filter: drop-shadow(.125rem .125rem .125rem #254244);
+    margin-top: 2.5rem;
+    margin-left: 4.375rem;
+    text-decoration: none;
+}
+
+.breakout-text {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 3.4375rem;
+    margin: auto;
+}
+
+.weather {
+    background-color: var(--clr-lighter_background);
+    display: flex;
+    border-radius: 1.25rem;
+    width: 37.5rem;
+    height: 9.6875rem;
+    filter: drop-shadow(.125rem .125rem .125rem #254244);
+    margin-top: 2.5rem;
+    margin-left: 4.375rem;
+    text-decoration: none;
+}
+
+.weather-text {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 3.4375rem;
+    margin: auto;
+}

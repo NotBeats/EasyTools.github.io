@@ -1,0 +1,38 @@
+.subtext {
+    color: var(--clr-white);
+    font-family: 'Space Mono';
+    font-weight: var(--fw-regular);
+    font-size: 1.5rem;
+    line-height: 2.375rem;
+    margin-left: 4.375rem;
+    margin-top: -1.25rem;
+}
+
+.explore-button {
+    background-color: var(--clr-cta);
+    display: flex;
+    border-radius: .625rem;
+    width: 21.25rem;
+    height: 5rem;
+    text-decoration: none;
+    filter: drop-shadow(.125rem .125rem .125rem #396962);
+    margin-top: 2.5rem;
+    margin-left: 4.375rem;
+}
+
+.explore-text {
+    color: var(--clr-cta_text);
+    font-family: 'Space Mono';
+    font-weight: var(--fw-regular);
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+    margin: auto;
+}
+
+.calculator {
+    height: 38.8125rem;
+    width: 34.0625rem;
+    position: absolute;
+    right: 5rem;
+    top: 12.5rem;
+}

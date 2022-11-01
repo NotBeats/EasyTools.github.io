@@ -1,0 +1,69 @@
+form {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-regular);
+    font-size: 2rem;
+    margin-left: 2.6rem;
+}
+
+.error-message {
+    color: var(--clr-pop_text);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-regular);
+    font-size: 2rem;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    margin-left: 4.375rem;
+}
+
+p {
+    margin-top: -20px;
+}
+
+input,
+textarea,
+select {
+    background: var(--clr-lighter_background);
+    color: var(--clr-lighter_background_text);
+    font-family: 'Space Mono';
+    font-weight: var(--fw-regular);
+    font-size: 1.5rem;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    width: 500px;
+    height: 70px;
+}
+
+select {
+    width: 200px;
+    color: var(--clr-white);
+    margin-right: 10px;
+}
+
+.name-input,
+.email-input,
+.idea-input,
+textarea {
+    margin-top: 30px;
+}
+
+textarea {
+    height: 250px;
+}
+
+.submit-button {
+    background: var(--clr-cta);
+    color: var(--clr-cta_text);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+    width: 700px;
+    cursor: pointer;
+}
+
+fieldset {
+    outline:none;
+    border: none;
+}

@@ -1,0 +1,45 @@
+main {
+    margin-top: 50px;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+    margin-left: 2.5rem;
+}
+
+.note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    filter: drop-shadow(.125rem .125rem .125rem #254244);
+    resize: none;
+    font-family: 'Space Grotesk';
+    background: var(--clr-lighter_background);
+    color: var(--clr-white);
+    font-size: 1.25rem;
+}
+
+.add-note {
+    height: 200px;
+    border: none;
+    outline: none;
+    background: var(--clr-cta);
+    border-radius: 1rem;
+    font-size: 120px;
+    color: var(--clr-cta_text);
+    cursor: pointer;
+}
+
+.date-text {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    font-family: 'Space Grotesk';
+    margin-top: -40px;
+    margin-left: 4.375rem;
+}

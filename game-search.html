@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Games</title>
+    <link href="css/game-search.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Space+Mono&display=swap" rel="stylesheet"/>
+
+    <!-- Fav Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">EasyTools</a>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-list-item"><a href="calculators.html" class="nav-link">Calculators</a></li>
+                <li class="nav-list-item"><a href="lists.html" class="nav-link">Lists</a></li>
+                <li class="nav-list-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-list-item"><a href="other.html" class="current-nav-link">Other</a></li>
+            </ul>
+        </nav>
+
+        <a href="sign-up.html" class="sign-up-button"><p class="sign-up-text">Sign Up</p></a>
+        <h2 class="display-name" id="display-name"></h2>
+    </header>
+
+    <main class="interface">
+        <h1 class="title">Search Games <p class="title-details">(Use - for spaces: resident-evil-village)</p></h1>
+
+        <input type="text" class="game-input" id="game-input" placeholder="Enter game name...">
+        <button id="searchBtn" class="searchBtn"><p class="search-text">Search</p></button>
+
+        <div class="results">
+            <h2 class="display-gamename">Name:</h2>
+            <p id="game-name" class="game-name"></p>
+
+
+            <h2 class="display-date">Release Date (yyyy-mm-dd):</h2>
+            <p id="game-date" class="game-date"></p>
+
+            <h2 class="display-rating">Rating (Out of 5):</h2>
+            <p id="game-rating" class="game-rating"></p>
+
+
+            <h2 class="display-desc">Description:</h2>
+            <p id="game-desc" class="game-desc"></p>
+        </div>
+    </main>
+    <script src="js/game-search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

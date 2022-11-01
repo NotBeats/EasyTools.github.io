@@ -1,0 +1,107 @@
+:root {
+    --clr-background: #2D4749;
+    --clr-white: #DBD9D9;
+    --clr-faded: #807E7E;
+    --clr-cta: #72C7BB;
+    --clr-cta_text: #1E1B19;
+    --clr-lighter_background: #355A5C;
+    --clr-lighter_background_text: #AAA8A8;
+    --clr-pop_text: #32F0FF;
+    --clr-card: #254244;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --hue: 200;
+    --saturation: 50%;
+    --clr-pong_foreground: hsl(var(--hue), var(--saturation), 75%);
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--clr-background);
+    min-height: 130vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin-inline-start: 1.875rem;
+}
+
+.logo {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: var(--fw-medium);
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin-left: 4.375rem;
+    margin-top: 1.875rem;
+}
+
+.nav-link {
+    color: var(--clr-faded);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.25rem;
+    font-weight: var(--fw-light);
+    text-decoration: none;
+}
+
+.current-nav-link {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.25rem;
+    font-weight: var(--fw-light);
+    text-decoration: underline;
+}
+
+.sign-up-button {
+    background-color: var(--clr-cta);
+    display: flex;
+    flex-direction: column;
+    border-radius: .625rem;
+    width: 13.75rem;
+    height: 4.1875rem;
+    text-decoration: none;
+    filter: drop-shadow(.125rem .125rem .125rem #396962);
+    position: absolute;
+    right: 4.375rem;
+    top: 1.5625rem;
+}
+
+.sign-up-text {
+    color: var(--clr-cta_text);
+    font-family: 'Space Mono';
+    font-weight: var(--fw-regular);
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+    margin: auto;
+}
+
+.title {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 3rem;
+    line-height: 5.375rem;
+    margin-left: 4.375rem;
+    margin-top: 3.75rem;
+}
+
+.display-name {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-medium);
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 15.8rem;
+}

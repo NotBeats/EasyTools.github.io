@@ -1,0 +1,41 @@
+form {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-regular);
+    font-size: 2rem;
+    margin: 4.375rem;
+}
+
+input {
+    background-color: var(--clr-lighter_background);
+    color: var(--clr-lighter_background_text);
+    font-family: 'Space Mono';
+    font-weight: var(--fw-regular);
+    font-size: 1.125rem;
+    width: 590px;
+    height: 70px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.submit-button {
+    background-color: var(--clr-cta);
+    color: var(--clr-cta_text);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 2.25rem;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+
+.error {
+    color: var(--clr-pop_text);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 3rem;
+    margin-left: 4.375rem;
+}

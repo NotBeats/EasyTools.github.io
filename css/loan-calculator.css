@@ -1,0 +1,111 @@
+input {
+    background-color: var(--clr-lighter_background);
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-regular);
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    width: 11.25rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+main {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+}
+
+.money,
+.rate,
+.years {
+    margin-left: 4.375rem;
+    font-size: 2rem;
+    margin-top: 55px;
+}
+
+.money-input {
+    position: absolute;
+    right: 155px;
+    margin-top: -55px;
+}
+
+.rate-input,
+.years-input {
+    position: absolute;
+    right: 155px;
+    margin-top: -55px;
+}
+
+.money-input::-webkit-outer-spin-button,
+.rate-input::-webkit-outer-spin-button,
+.years-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.money-input::-webkit-inner-spin-button,
+.rate-input::-webkit-inner-spin-button,
+.years-input::-webkit-inner-spin-button  {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+button {
+    background-color: var(--clr-cta);
+    color: var(--clr-cta_text);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-regular);
+    font-size: 2rem;
+    margin-top: 3.4375rem;
+    margin-left: 9.6875rem;
+    margin-right: 9.6875rem;
+    height: 4.6875rem;
+    width: 70.625rem;
+    border-radius: 1.25rem;
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.title2 {
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 2.5rem;
+    margin-top: 3.75rem;
+    margin-left: 3.125rem;
+}
+
+div p {
+    color: var(--clr-faded);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-light);
+    font-size: 2rem;
+    display: inline;
+    margin-left: 4.375rem;
+    margin-inline-start: 3.125rem;
+}
+
+.monthly-payments {
+    color: var(--clr-pop_text);
+}
+
+.monthly-result {
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-bold);
+    font-size: 6rem;
+    margin-right: 4.375rem;
+}
+
+span {
+    color: var(--clr-white);
+    font-family: 'Space Grotesk';
+    font-weight: var(--fw-regular);
+    font-size: 2.5rem;
+    margin-left: 0.3125rem;
+}

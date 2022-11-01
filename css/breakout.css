@@ -1,0 +1,40 @@
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: solid 2px black;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: var(--clr-pop_text);
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: var(--clr-lighter_background);
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: var(--clr-cta);
+}
+
+.score {
+  color: var(--clr-white);
+  font-family: 'Space Grotesk';
+  font-weight: var(--fw-medium);
+  font-size: 2.25rem;
+  margin-top: 100px;
+  margin-bottom: -80px;
+  margin-left: 650px;
+}
